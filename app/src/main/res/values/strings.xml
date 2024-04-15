@@ -19,5 +19,83 @@
     <string name="admin_opcion_2">Reporte de Citas Completadas.</string>
     <string name="admin_opcion_3">Historial de Citas.</string>
     <string name="admin_opcion_4">Control de Notificaciones.</string>
+    <string name="title_activity_user_manual">UserManualActivity</string>
+    <string name="large_text">
+
+        "MANUAL DE USUARIO\n\n"
+
+        "1.	¿Cómo acceder a la aplicación móvil?\n\n"
+
+        "La aplicación móvil por el momento se encuentra en proceso de desarrollo, una vez que su"
+        "desarrollo culmine, podrás obtenerla desde la Play Store de Android. El manual de usuario"
+        "que se desarrolla a continuación, es una guía que te ayudara a dar tus primeros pasos"
+        "dentro de la aplicación y conocer su funcionamiento.\n\n"
+
+        "2.	¿Cómo registrarse en la aplicación móvil?\n\n"
+
+        "Al mostrarse la pantalla principal si el usuario está accediendo a la aplicación por"
+        "primera vez, debe hacer clic en el botón de crearse una cuenta, a realizar esta acción,"
+        "la aplicación se dirige hacia el formulario que debe llenar el usuario para registrar.\n\n"
+
+        "El usuario debe completar este formulario tomando en cuenta los siguientes aspectos.\n\n"
+
+        "En el campo de Nombre completo, el usuario debe ingresar su nombre y apellido.\n\n"
+
+        "En el campo de Nombre de usuario, debe ingresar el nombre público de usuario que"
+        "le permitirá identificarse dentro de la base de datos de la aplicación.\n\n"
+
+        "En el campo de Correo electrónico, el usuario debe ingresar un correo electrónico"
+        "existente, ya que, este será su autenticación para tener acceso al sistema.\n\n"
+
+        "En el campo de Contraseña, el usuario debe introducir su contraseña de acceso al sistema,"
+        "debe tomar en cuenta que la contraseña debe contar con una letra mayúscula, una letra"
+        "minúscula, y al menos 3 caracteres especiales. La contraseña debe estar en un rango mínimo "
+        "de 6 caracteres y máximo 12 caracteres."
+
+        "En el campo de Repetir contraseña, el usuario debe introducir la misma contraseña "
+        "ingresada en el campo anterior, con la finalidad de verificar que ambas contraseñas sean "
+        "correctas para evitar inconvenientes al momento de registrar un nuevo usuario.\n\n"
+
+        "Una vez que el usuario complete el formulario, debe hacer clic en el botón Crear Cuenta,”
+        "al hacer clic en el botón el sistema verifica que todos los datos sean correctos,"
+        "si es así muestra un mensaje de Cuenta creada exitosamente,en caso contrario muestra un mensaje de error."\n\n"
+
+        "3.	¿Cómo iniciar sesión en la aplicación móvil?\n\n"
+
+        "TLuego de que el usuario haya completado su proceso de registro, ya puede "
+        "iniciar sesión dentro de la aplicación. Para lograr esto, una vez este ubicado en la "
+        "pantalla principal, debe dar clic en el botón de iniciar sesión, \n\n"
+
+        "El proceso de inicio de sesión es el siguiente: \n\n"
+
+        "En el campo de Correo electrónico, el usuario debe introducir el mismo correo "
+        "electrónico ingresado en el formulario de registro."
+        "En el campo de Contraseña, el usuario debe introducir la misma contraseña que "
+        "ingreso en el formulario de registro.\n\n"
+
+        "Una vez llenados los campos, el usuario debe dar clic en el botón “Iniciar Sesión”, "
+        "la aplicación verifica que los datos ingresados sean correctos. La aplicación móvil "
+        "cuenta con un control de acceso por roles de usuario, cuando se hace clic en el botón se "
+        "hace una petición a la base de datos, donde se verifica el rol que tiene el usuario, "
+        "por defecto, el rol cada usuario que se ingresa es “USUARIO” pero también existen roles "
+        "como “ADMIN” y “MEDICO”, el control total de toda la aplicación lo tienen los usuarios que"
+        "son administradores."
+        "Cuando se da clic al botón de Iniciar Sesión, el sistema de autenticación verifica el rol "
+        "del usuario que esta accediendo al sistema y te redirige a la pantalla correspondiente\n\n"
+
+        "4.	¿Cómo cambiar la contraseña desde la aplicación móvil?\n\n"
+
+        "Para cambiar la contraseña desde la aplicación, en la pantalla de inicio de sesión existe"
+        "la opción de cambiar la contraseña, el usuario debe hacer clic en el "
+        "texto y la aplicación \n\n"
+
+        "En el campo Correo electrónico el usuario debe ingresar el correo electrónico con el que "
+        "se registró y posteriormente dar clic al botón de Enviar Email para poder cambiar su "
+        "contraseña. Esto se debe al funcionamiento de configuración del sistema de autenticación "
+        "de la aplicación móvil.\n\n"
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="manual_de_usuario">Manual de usuario</string>
 
 </resources>

@@ -113,6 +113,7 @@ class LogInActivity : AppCompatActivity() {
         }
     }
 
+
 //    private fun showForgotPassword() {
 //        startActivity(Intent(this, ForgotPasswordActivity::class.java))
 //        finish()
